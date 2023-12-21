@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maquettte Meth</title>
     <meta name="description" content="Empty for the moment" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -18,16 +19,18 @@
   <body>
     <!-- Header Part -->
     <header>
-      <img src="./resources/img/logo.png" alt="" />
+      <img src="./resources/img/logo.png" alt="logo de l'entreprise" />
       <nav class="navigation">
         <ul class="navigation-content">
-          <li class="item">Services</li>
-          <li class="item">Portfolio</li>
-          <li class="item">Testimonials</li>
-          <li class="item">Teams</li>
-          <li class="item">Contact</li>
+          <li class="item"><a href="#">Services</a></li>
+          <li class="item"><a href="#">Portfolio</a></li>
+          <li class="item"><a href="#">Testimonials</a></li>
+          <li class="item"><a href="#">Teams</a></li>
+          <li class="item"><a href="#">Contact</a></li>
           <li class="item">
-            Archives <i class="fa-solid fa-chevron-down"></i>
+            <a href="#">Archives</a> <i class="fa-solid fa-chevron-down">
+              <!-- Injecter une classe en Javascript au click sur le chevron, une classe qui comportera une unordered list  -->
+            </i>
           </li>
         </ul>
       </nav>
@@ -35,7 +38,7 @@
         A Flexible one page portfolio theme, for a full on user experience.
       </h1>
       <p>We implement Awesome ideas into full-scale Projects</p>
-      <a href="#"></a>
+      <a href="#">See more</a>
     </header>
 
     <!-- Main part -->
@@ -44,7 +47,6 @@
         <div class="our-engagement-title">
           <h2>Fine features</h2>
           <div class="our-engagement-title line"></div>
-
         </div>
         <div class="our-engagement-content">
           <div class="card card-1">
@@ -61,11 +63,12 @@
           </div>
         </div>
       </section>
+
+      <!-- Section à propos des différents travaux réalisé par Meth -->
       <section id="our-work">
         <div class="our-work-title">
           <h2>Our design samples</h2>
           <div class="our-work-title line"></div>
-
         </div>
         <div class="our-work-topic">
           <ul>
@@ -91,6 +94,8 @@
           />
         </div>
       </section>
+
+      <!-- Un article, réprésentant le commentaire d'un utilisateur à propos de la qualité de l'entreprise   -->
       <article id="acclamation">
         <header>
           <h3>
@@ -100,32 +105,153 @@
         </header>
         <footer>Stéphanie Windmill</footer>
         <div class="acclamation-button">
-          <button><i class="fa-solid fa-chevron-left"></i></button><button><i class="fa-solid fa-chevron-right"></i></button>
+          <button><i class="fa-solid fa-chevron-left"></i></button
+          ><button><i class="fa-solid fa-chevron-right"></i></button>
         </div>
       </article>
+
+      <!-- Section présentant les employers de Meth -->
       <section id="our-team">
         <div class="our-team-title">
           <h2>Our Team</h2>
           <div class="our-team-title line"></div>
-
         </div>
         <div class="our-team-content">
           <div class="our-team-content first-person">
-            <img src="./resources/img/team1-300x300.jpg" alt="">
-
+            <img src="./resources/img/team1-300x300.jpg" alt="" />
+            <h3>Ram Ratan</h3>
+            <h4>Developer</h4>
+            <div class="our-team line"></div>
+            <p>
+              I'm passionnate about everything web related, and a WordPress core
+              contributor. I love coffee too. i've been in Photoshop all day and
+              night.
+            </p>
           </div>
           <div class="our-team-content second-person">
-            <img src="./resources/img/team2-300x300.jpg" alt="">
+            <img src="./resources/img/team2-300x300.jpg" alt="" />
+            <h3>Anna Lee</h3>
+            <h4>Client Service</h4>
+            <div class="our-team line"></div>
+            <p>
+              I'm passionnate about everything web related, and a WordPress core
+              contributor. I love coffee too. i've been in Photoshop all day and
+              night.
+            </p>
           </div>
           <div class="our-team-content third-person">
-            
+            <img src="./resources/img/team3-300x300.jpg" alt="" />
+            <h3>John Pixle</h3>
+            <h4>Designer</h4>
+            <div class="our-team line"></div>
+            <p>
+              I'm passionnate about everything web related, and a WordPress core
+              contributor. I love coffee too. i've been in Photoshop all day and
+              night.
+            </p>
           </div>
-          <div class="our-team-content fourth-person">
-            <img src="./resources/img/team3-300x300.jpg" alt="">
-          </div>
-
         </div>
       </section>
+
+      <!-- Division à part entière du contenu classique  -->
+      <div class="static-content">
+        <div class="static-content-container">
+          <h2>A static content section</h2>
+          <h3>
+            A handy shortcode for intro text allows you to style like that.
+            Which is cool.
+          </h3>
+          <div class="static-content line"></div>
+          <p>
+            Interface design is what is between the machine and the human. I
+            'hink it's time to have a Juice and kick some ass. Interface disgn
+            is what is between the machine and the human
+          </p>
+          <p>
+            Design is the creation of a plan or convention for the construction
+            of an object or a system (as in architectural bluprints, engineering
+            drawing, business process, circuit diagrams and sewing patterns).
+          </p>
+
+          <a href="#calltoaction">Call to Action</a>
+        </div>
+      </div>
+
+      <!-- Section permettant au customer de contacter Meth -->
+      <section id="contact-us">
+        <div class="contact-us-container">
+          <div class="contact-us-title">
+            <h2>Get in touch</h2>
+            <div class="contact-us-line"></div>
+          </div>
+          <div class="contact-us-content">
+            <div class="contact-us-content-left">
+              <h3>Meth Design Studio</h3>
+              <p>
+                We always look forward to meet new awesome people and discuss
+                brillant project ideas. Come visit us! We have a great place to
+                sit.
+              </p>
+              <h4>Our contact detail</h4>
+              <div class="contact-details">
+                <p>21 jump street</p>
+                <p>adress line here too</p>
+                <p>15528 CA</p>
+                <a href="mailto:hello@meth.com">hello@meth.com</a>
+                <p>T:23.444.221</p>
+                <p>F:23.555.333</p>
+              </div>
+              <div class="contact-us-content-left-icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-basketball"></i>
+                <i class="fa-solid fa-camera"></i>
+              </div>
+            </div>
+            <div class="contact-us-content-right">
+              <h3>Send us a direct message</h3>
+              <form>
+                <input name="name" id="name-user" type="text" />
+                <label for="name-user">Your name</label>
+                <input name="email" id="email-user" type="email" />
+                <label for="email-user">Your Email</label>
+                <textarea name="message" id="message-user"></textarea>
+                <label for="message-user">Enter your message here</label>
+                <button type="submit">Send message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Un Article, présentant nos différents topics sur notre blog -->
+      <article id="our-blog">
+        <header>
+          <h2>From Our blog</h2>
+        </header>
+        <div class="our-blog-container">
+          <div class="our-blog-container container1">
+            <h3>Markup: HTML Tags and Formatting</h3>
+            <time 2014-02-04="">04 February 2014</time>
+          </div>
+          <div class="our-blog-container container2">
+            <h3>The day we won our first award</h3>
+            <time datetime="2014-01-24">24 January 2014</time>
+          </div>
+          <div class="our-blog-container container3">
+            <h3>Why working from home can be bad</h3>
+            <time datetime="2014-01-24">24 January 2014</time>
+          </div>
+        </div>
+        <footer>
+          <button><i class="fa-solid fa-chevron-left"></i></button>
+          <button><i class="fa-solid fa-chevron-right"></i></button>
+        </footer>
+      </article>
     </main>
+
+    <!-- Footer part -->
+    <footer>
+      <p>@ 2016 Meth - A WordPress Theme made with passion by Codestag</p>
+    </footer>
   </body>
 </html>
