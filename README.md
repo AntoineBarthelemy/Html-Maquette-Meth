@@ -1,5 +1,5 @@
-# Réalisation de l'intégration d'une maquette, exercice récupéré sur GitHub 🎓
+# Completion of a mockup integration, an exercise sourced from GitHub 🎓
 
-L'intégration d'une _maquette_ en développement **web** est un processus fastidieux qui nécessite une approche logique. On y retrouve exactement les mêmes qualités que lors de la construction d'une application web complexe.
+The integration of a mockup in web development is a meticulous process that requires a logical approach. It involves exactly the same qualities needed when building a complex web application.
 
-Cela se fait par une approche par blocs, en segmentant les gros composants en petites pièces. Ces petites pièces se révèlent effectivement beaucoup plus faciles à appréhender.
+This is done through a block approach, by segmenting large components into smaller pieces. These smaller pieces prove to be much easier to manage.
